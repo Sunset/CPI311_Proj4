@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Textures\Bomb.png</Source>
+      <Name>Textures\Bomb</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\Textures\Bomb.xnb</Output>
+      <Time>2012-11-15T13:15:54.1647363-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\HeightMap.png</Source>
+      <Name>Textures\HeightMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\Textures\HeightMap.xnb</Output>
+      <Time>2012-11-15T13:15:54.1647363-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Jellyfish.jpg</Source>
+      <Name>Textures\Jellyfish</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\Textures\Jellyfish.xnb</Output>
+      <Time>2012-11-15T13:15:54.1647363-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Stripes.png</Source>
+      <Name>Textures\Stripes</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\Textures\Stripes.xnb</Output>
+      <Time>2012-11-15T13:15:54.1803363-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\SegoeUI.spritefont</Source>
+      <Name>Fonts\SegoeUI</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\Fonts\SegoeUI.xnb</Output>
+      <Time>2012-11-15T13:15:54.2115364-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Torus.FBX</Source>
+      <Name>Models\Torus</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\Models\Torus.xnb</Output>
+      <Time>2012-11-15T13:15:51.5907318-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Torus_0.xml</Key>
+        <Value>2013-12-29T20:24:46.9865117-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Cube.fbx</Source>
+      <Name>Models\Cube</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\Models\Cube.xnb</Output>
+      <Time>2012-11-15T13:15:51.6063318-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Cube_0.xml</Key>
+        <Value>2013-12-29T20:24:47.5275427-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Cube and Torus.fbx</Source>
+      <Name>Models\Cube and Torus</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\Models\Cube and Torus.xnb</Output>
+      <Time>2012-11-15T13:15:51.6063318-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Cube and Torus_0.xml</Key>
+        <Value>2013-12-29T20:24:47.8665621-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Sphere.FBX</Source>
+      <Name>Models\Sphere</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\Models\Sphere.xnb</Output>
+      <Time>2012-11-15T13:15:51.5907318-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Sphere_0.xml</Key>
+        <Value>2013-12-29T20:24:48.1595788-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Dude\Dude.fbx</Source>
+      <Name>Models\Dude\Dude</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\Models\Dude\Dude.xnb</Output>
+      <Time>2012-11-15T13:15:51.4659316-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Dude\Dude_0.xml</Key>
+        <Value>2013-12-29T20:24:54.3839349-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\Models\Dude\head_0.xnb</Request>
+      <Request>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\Models\Dude\jacket_0.xnb</Request>
+      <Request>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\Models\Dude\pants_0.xnb</Request>
+      <Request>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\Models\Dude\upBodyC_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Effects\SimpleEffect.fx</Source>
+      <Name>Effects\SimpleEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\Effects\SimpleEffect.xnb</Output>
+      <Time>2012-11-15T13:15:16.8182707-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\applause.wav</Source>
+      <Name>Sounds\applause</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\Sounds\applause.xnb</Output>
+      <Time>2012-11-15T13:15:54.2271364-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\gun1.wav</Source>
+      <Name>Sounds\gun1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\Sounds\gun1.xnb</Output>
+      <Time>2012-11-15T13:15:54.2271364-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Torus.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Torus_0.xml</Output>
+      <Time>2012-11-15T13:15:51.5907318-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Cube.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Cube_0.xml</Output>
+      <Time>2012-11-15T13:15:51.6063318-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Cube and Torus.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Cube and Torus_0.xml</Output>
+      <Time>2012-11-15T13:15:51.6063318-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Sphere.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Sphere_0.xml</Output>
+      <Time>2012-11-15T13:15:51.5907318-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Dude\Dude.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Dude\Dude_0.xml</Output>
+      <Time>2012-11-15T13:15:51.4659316-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Dude\head.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\Models\Dude\head_0.xnb</Output>
+      <Time>2012-11-15T13:15:51.5283317-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Dude\jacket.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\Models\Dude\jacket_0.xnb</Output>
+      <Time>2012-11-15T13:15:51.5439317-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Dude\pants.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\Models\Dude\pants_0.xnb</Output>
+      <Time>2012-11-15T13:15:51.4971316-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Dude\upBodyC.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\Models\Dude\upBodyC_0.xnb</Output>
+      <Time>2012-11-15T13:15:51.5127316-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Owner\Documents\CPI311\Assignment4\CPI311\CPI311\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Users\Owner\Documents\CPI311\Assignment4\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll</Key>
+        <Value>2013-12-29T20:24:35.7738704-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-08-25T11:03:42.8353012-07:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
